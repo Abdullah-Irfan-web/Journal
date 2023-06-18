@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family:'Lato', sans-serif ;
+    
+}
+.navbar{
+    background: rgb(255, 255, 255);
+}
+.nav-container{
+    display:flex;
+    justify-content: space-between;
+   
+    height: 13vh;
+    width: 100%;
+}
+.navlist{
+margin-right: 20px;
+
+}
+
+.navlist ul{
+    display: flex;
+}
+ul li{
+    list-style: none;   
+    padding: 29px 10px;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+ul li a:hover{
+    color: rgb(42, 110, 255) ;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
